@@ -1,0 +1,21 @@
+
+State Machine - |FiltroMediaMovel|ControlUnit:StateController|keepRunningState
+Name keepRunningState.t_STOPPED keepRunningState.t_RUNNING keepRunningState.t_GLOBALRESET keepRunningState.t_RAMRESET 
+keepRunningState.t_RAMRESET 0 0 0 0 
+keepRunningState.t_GLOBALRESET 0 0 1 1 
+keepRunningState.t_RUNNING 0 1 0 1 
+keepRunningState.t_STOPPED 1 0 0 1 
+
+State Machine - |FiltroMediaMovel|ControlUnit:StateController|currState
+Name currState.t_STOPPED currState.t_RUNNING currState.t_RAMRESET currState.t_GLOBALRESET 
+currState.t_GLOBALRESET 0 0 0 0 
+currState.t_RAMRESET 0 0 1 1 
+currState.t_RUNNING 0 1 0 1 
+currState.t_STOPPED 1 0 0 1 
+
+State Machine - |FiltroMediaMovel|RomManager:RomManagment|currState
+Name currState.t_DATAREADY currState.t_CURRADDRESS currState.t_NEXTADDRESS currState.t_IDLE 
+currState.t_IDLE 0 0 0 0 
+currState.t_NEXTADDRESS 0 0 1 1 
+currState.t_CURRADDRESS 0 1 0 1 
+currState.t_DATAREADY 1 0 0 1 
