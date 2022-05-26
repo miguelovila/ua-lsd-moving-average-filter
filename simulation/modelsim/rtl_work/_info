@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/repo/lsd-pf/project-files/simulation/modelsim
+Earithmeticunit
+Z1 w1655832447
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/maomv/repo/lsd-pf/project-files/ArithmeticUnit.vhd
+Z6 F/home/maomv/repo/lsd-pf/project-files/ArithmeticUnit.vhd
+l0
+L5
+V?KK1ZcGMmeYzPcWJ?c4[l3
+!s100 coc>K9bgfLBWzcg6dlWgg3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1655860963
+!i10b 1
+Z9 !s108 1655860963.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/maomv/repo/lsd-pf/project-files/ArithmeticUnit.vhd|
+Z11 !s107 /home/maomv/repo/lsd-pf/project-files/ArithmeticUnit.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 14 arithmeticunit 0 22 ?KK1ZcGMmeYzPcWJ?c4[l3
+l15
+L13
+VTNfS[Eg`aPI>R08a8FAnh3
+!s100 nGCPVE6C9dfUUf^ZzjZ^m1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efiltromediamovel
+w1655838895
+R2
+R3
+R4
+R0
+8/home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd
+F/home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd
+l0
+L5
+VT_Vj3Q2m09NaABOjoU]:H1
+!s100 nzX9WQCbbnocSY19zPZVX3
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|/home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd|
+!s107 /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd|
+!i113 1
+R12
+R13
+Eregisterbank
+Z14 w1655834922
+R3
+R4
+R0
+Z15 8/home/maomv/repo/lsd-pf/project-files/RegisterBank.vhd
+Z16 F/home/maomv/repo/lsd-pf/project-files/RegisterBank.vhd
+l0
+L4
+Va_dj^_E_bS`Uc0OIOgk?81
+!s100 7>RJ_GV?6Baz5XSaQVFio2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/maomv/repo/lsd-pf/project-files/RegisterBank.vhd|
+Z18 !s107 /home/maomv/repo/lsd-pf/project-files/RegisterBank.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+Z19 DEx4 work 12 registerbank 0 22 a_dj^_E_bS`Uc0OIOgk?81
+l13
+L11
+VAmh=z0H5mH79LC:nLcW?S0
+!s100 N5;7nN^1Ic2;Uemf`b`Xk0
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Eregisterbanktb
+Z20 w1655860946
+R3
+R4
+R0
+Z21 8/home/maomv/repo/lsd-pf/project-files/RegisterBankTb.vhd
+Z22 F/home/maomv/repo/lsd-pf/project-files/RegisterBankTb.vhd
+l0
+L4
+VK5LJ3be=8SiX?2dAi50cb2
+!s100 oY`M?UoAAl1dhXR@NMazo3
+R7
+32
+Z23 !s110 1655860973
+!i10b 1
+Z24 !s108 1655860973.000000
+Z25 !s90 -reportprogress|300|-work|work|/home/maomv/repo/lsd-pf/project-files/RegisterBankTb.vhd|
+Z26 !s107 /home/maomv/repo/lsd-pf/project-files/RegisterBankTb.vhd|
+!i113 1
+Z27 o-work work
+R13
+Astimulus
+R19
+R3
+R4
+DEx4 work 14 registerbanktb 0 22 K5LJ3be=8SiX?2dAi50cb2
+l10
+L7
+VZI1^almMVDUzj0R_Mg^0K2
+!s100 <hHLKRdS2=@@AN9diCPn10
+R7
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R27
+R13
