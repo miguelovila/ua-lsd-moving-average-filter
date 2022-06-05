@@ -1,0 +1,119 @@
+# do FiltroMediaMovel_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /opt/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/maomv/repo/lsd-pf/project-files/RegisterBank.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:22:43 on Jun 22,2022
+# vcom -reportprogress 300 -93 -work work /home/maomv/repo/lsd-pf/project-files/RegisterBank.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterBank
+# -- Compiling architecture Behavioral of RegisterBank
+# End time: 02:22:43 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/maomv/repo/lsd-pf/project-files/ArithmeticUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:22:43 on Jun 22,2022
+# vcom -reportprogress 300 -93 -work work /home/maomv/repo/lsd-pf/project-files/ArithmeticUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ArithmeticUnit
+# -- Compiling architecture Behavioral of ArithmeticUnit
+# End time: 02:22:43 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:22:43 on Jun 22,2022
+# vcom -reportprogress 300 -93 -work work /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FiltroMediaMovel
+# -- Compiling architecture Structural of FiltroMediaMovel
+# ** Error: (vcom-11) Could not find work.pulsegenerator.
+# ** Error (suppressible): /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(32): (vcom-1195) Cannot find expanded name "work.PulseGenerator".
+# ** Error: /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(32): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.cleaninputmanager.
+# ** Error (suppressible): /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(56): (vcom-1195) Cannot find expanded name "work.CleanInputManager".
+# ** Error: /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(56): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.addressgenerator.
+# ** Error (suppressible): /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(70): (vcom-1195) Cannot find expanded name "work.AddressGenerator".
+# ** Error: /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(70): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.rommanager.
+# ** Error (suppressible): /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(79): (vcom-1195) Cannot find expanded name "work.RomManager".
+# ** Error: /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(79): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.datadisplaymanager.
+# ** Error (suppressible): /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(88): (vcom-1195) Cannot find expanded name "work.DataDisplayManager".
+# ** Error: /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(88): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.rammanager.
+# ** Error (suppressible): /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(98): (vcom-1195) Cannot find expanded name "work.RamManager".
+# ** Error: /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(98): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.datadisplaymanager.
+# ** Error (suppressible): /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(109): (vcom-1195) Cannot find expanded name "work.DataDisplayManager".
+# ** Error: /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(109): Unknown expanded name.
+# -- Loading entity RegisterBank
+# -- Loading entity ArithmeticUnit
+# ** Error: (vcom-11) Could not find work.controlunit.
+# ** Error (suppressible): /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(143): (vcom-1195) Cannot find expanded name "work.ControlUnit".
+# ** Error: /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(143): Unknown expanded name.
+# ** Error: /home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd(155): VHDL Compiler exiting
+# End time: 02:22:43 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 25, Warnings: 0
+# ** Error: /opt/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./FiltroMediaMovel_run_msim_rtl_vhdl.do line 10
+# /opt/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {/home/maomv/repo/lsd-pf/project-files/FiltroMediaMovel.vhd}"
+# 
+# stdin: <EOF>
+vcom -reportprogress 300 -work work /home/maomv/repo/lsd-pf/project-files/RegisterBankTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:22:53 on Jun 22,2022
+# vcom -reportprogress 300 -work work /home/maomv/repo/lsd-pf/project-files/RegisterBankTb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterBankTb
+# -- Compiling architecture Stimulus of RegisterBankTb
+# -- Loading entity RegisterBank
+# End time: 02:22:53 on Jun 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.registerbanktb(stimulus)
+# vsim work.registerbanktb(stimulus) 
+# Start time: 02:22:59 on Jun 22,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.registerbanktb(stimulus)
+# Loading work.registerbank(behavioral)
+add wave -position end  sim:/registerbanktb/s_WriteEnable
+add wave -position end  sim:/registerbanktb/s_Clock
+add wave -position end  sim:/registerbanktb/s_CurrDataIn
+add wave -position end  sim:/registerbanktb/s_NextDataIn
+add wave -position end  sim:/registerbanktb/s_DataOut0
+add wave -position end  sim:/registerbanktb/s_DataOut1
+add wave -position end  sim:/registerbanktb/s_DataOut2
+add wave -position end  sim:/registerbanktb/s_DataOut3
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# End time: 02:27:21 on Jun 22,2022, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 8
